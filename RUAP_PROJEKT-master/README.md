@@ -1,1 +1,0 @@
-# RUAP_PROJEKT
