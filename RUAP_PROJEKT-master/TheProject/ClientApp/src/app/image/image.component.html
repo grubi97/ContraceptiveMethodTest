@@ -1,0 +1,13 @@
+<article style="margin-bottom: 50px; width:75%;">
+<h1 style="margin-bottom: 15px; font-weight: bold;">Image recognition (church/house)</h1>
+<h4 >After choosing file and selecting image, that should be church or house, built model will recognize 
+    what type of building is on that image and will give back the result of used algorithm.</h4>
+</article>
+<input class="upload" type="file"
+accept="image/jpg"
+(change)="uploadImage($event.target.files)">
+
+<div>
+    <h3 style="margin-left:10px;">Uploaded image: <b>{{imageName}}</b></h3>
+</div>
+
