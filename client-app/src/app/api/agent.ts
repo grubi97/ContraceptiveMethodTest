@@ -2,7 +2,7 @@ import axios, { AxiosResponse } from 'axios'
 import { IContraception } from '../models/contraception';
 
 
-axios.defaults.baseURL='http://localhost:5000/api';
+axios.defaults.baseURL=process.env.REACT_APP_API_URL;
 axios.defaults.url=''
 
 const responseBody=(response:AxiosResponse)=>response.data;
