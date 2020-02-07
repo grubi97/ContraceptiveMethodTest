@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles.css"],"names":[],"mappings":"AAAA,KAEE,kCAGF,CAEA,4BACA,0FAaA","file":"main.3a5627e3.chunk.css","sourcesContent":["body{\n\n  background-color: rgb(234,234,234) !important;\n\n\n}\n\n.ui.inverted.top.fixed.menu{\nbackground-image: linear-gradient(\n\n\n135deg,\n\nrgb(156,34,93)0%,\nrgb(219,48,130)69%,\nrgb(255,8,127)89%\n\n\n) !important\n\n\n}"]}

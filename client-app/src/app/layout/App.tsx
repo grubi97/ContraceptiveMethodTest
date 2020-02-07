@@ -4,6 +4,8 @@ import { NavBar } from "../../features/nav/NavBar";
 import { List, Container } from "semantic-ui-react";
 import { ActivityDashbord } from "../../features/Contraceptions/dashbord/ActivityDashbord";
 import agent from "../api/agent";
+import { Route } from "react-router-dom";
+import { About } from "../../features/Contraceptions/details/About";
 
 interface IState {
   contraceptions: IContraception[];
@@ -62,6 +64,14 @@ const App = () => {
   }, []); //[] da se useffect jednom pokrene samo
 
   return (
+
+    <Route>
+      <Route exact path='/'/>
+      <Route exact path='/about' component={About}
+      
+      
+      />
+
     <Fragment>
       <NavBar openCreateForm={handleOpenCreateForm} />
       <Container style={{ marginTop: "7em" }}>
@@ -78,6 +88,8 @@ const App = () => {
         />
       </Container>
     </Fragment>
+    </Route>
+    
   );
 };
 

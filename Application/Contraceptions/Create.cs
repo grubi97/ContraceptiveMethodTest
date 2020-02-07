@@ -44,7 +44,7 @@ namespace Application.Contraceptions
                 var cont = new Contraception
                 {
                     Id = request.Id,
-                    Date = request.Date,
+                    Date = DateTime.Now,
                     WifeAge = request.WifeAge,
                     WifeEducation = request.WifeEducation,
                     husbandEducation = request.husbandEducation,

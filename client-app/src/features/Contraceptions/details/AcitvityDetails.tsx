@@ -24,7 +24,7 @@ export const AcitvityDetails: React.FC<IProps> = ({ setSelectedActivity,setEditM
           <div>Husband's education: {activity.husbandEducation}</div>
           <div>Number of children: {activity.children}</div>
           <div>Wife's reliion: {activity.wifeReligion}</div>
-          <div>Wife's work: {activity.wifeWork}</div>
+          <div>Is wife working: {activity.wifeWork}</div>
           <div>Husbands occupation: {activity.husbandOccupation}</div>
           <div>Living standard: {activity.livingStandard}</div>
           <div>Media Exposure: {activity.mediaExposure}</div>

@@ -4,6 +4,7 @@ import { IContraception } from "../../../app/models/contraception";
 import { ActivityList } from "./ActivityList";
 import { AcitvityDetails } from "../details/AcitvityDetails";
 import { ActivityForm } from "../form/ActivityForm";
+import { About } from "../details/About";
 
 interface IProps {
   contraceptions: IContraception[];
@@ -30,6 +31,7 @@ export const ActivityDashbord: React.FC<IProps> = ({
 }) => {
   return (
     <Grid>
+      
       <Grid.Column width={10}>
         <ActivityList
           contraceptions={contraceptions}
@@ -50,7 +52,10 @@ export const ActivityDashbord: React.FC<IProps> = ({
           <ActivityForm key={selectedActivity && selectedActivity.id || 0}
            setEditMode={setEditMode} activity={selectedActivity!} createActivity={createActivity} editActivity={editActivity} />
         )}
+        
       </Grid.Column>
+
+
     </Grid>
   );
 };

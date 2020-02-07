@@ -1,4 +1,4 @@
 {
-    "appService.deploySubpath": "API\\publish\\runtimes",
-    "appService.defaultWebAppToDeploy": ""
+    "appService.deploySubpath": "",
+    "appService.defaultWebAppToDeploy": "/subscriptions/fa816aaf-1761-4123-a4e0-9ccb8ed02939/resourceGroups/contracteptiongroup/providers/Microsoft.Web/sites/contraceptionmethod"
 }
