@@ -26,7 +26,7 @@ export const About = () => {
         </p>
 
         <p style={{ marginTop: "10em",fontFamily: "Al Nile", fontSize: 20,fontWeight:"bold" }}>
-          Made by: Marko Grubeša, Predrag Duvnjak, 2020
+          Made by: Marko Grubeša, 2020
         </p>
       </Container>
     </Fragment>
